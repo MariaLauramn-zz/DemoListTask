@@ -9,7 +9,7 @@ function addTask (){
             <td> <input class="circle" onClick= "borrar()" type="radio"/></td>
             <td> ${input.value}</td>
                     `;
-    table.appendChild(row);
+    table.appendChild(row); //inserte una fila nueva a la table
     input.value="";
 }
 boton.addEventListener("click", addTask);
